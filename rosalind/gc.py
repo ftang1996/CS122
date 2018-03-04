@@ -1,4 +1,4 @@
-from utilities import read_fasta
+from rosalind.utilities import read_fasta
 
 
 def gc_content(seq):
