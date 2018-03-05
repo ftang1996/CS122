@@ -38,6 +38,10 @@ CORR
 - Problem Title: Error Correction in Reads
 - URL: http://rosalind.info/problems/corr
 
+DEG
+- Problem Title: Degree Array
+- URL: http://rosalind.info/problems/corr
+
 DNA
 - Problem Title: Counting DNA Nucleotides
 - URL: http://rosalind.info/problems/dna
@@ -54,6 +58,10 @@ HAMM
 - Problem Title: Counting Point Mutations
 - URL: http://rosalind.info/problems/hamm
 
+HDAG
+- Problem Title: Hamiltonian Path in DAG
+- URL: http://rosalind.info/problems/hdag
+
 IPBR
 - Problem Title: Mendel's First Law
 - URL: http://rosalind.info/problems/ipbr
@@ -69,6 +77,10 @@ INI5
 INI6
 - Problem Title: Dictionaries
 - URL: http://rosalind.info/problems/ini6
+
+PDST
+- Problem Title: Creating a Distance Matrix
+- URL: http://rosalind.info/problems/pdst
 
 PROB
 - Problem Title: Introduction to Random Strings

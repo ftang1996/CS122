@@ -1,5 +1,5 @@
 import collections
-from rosalind.utilities import read_fasta
+from rosalind.utilities import read_fasta_dict
 from rosalind.hamm import hamming
 from rosalind.revc import rev_complement
 
@@ -40,7 +40,7 @@ def correct_reads(reads):
 
 if __name__ == "__main__":
     file = "/Users/Fiona/Downloads/rosalind_ba1h_475_1_dataset (2).txt";
-    strands = read_fasta(file)
+    strands = read_fasta_dict(file)
     reads = [value for value in strands.values()]
     corrected = correct_reads(reads)
     for key, value in corrected.items():

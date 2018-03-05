@@ -1,4 +1,4 @@
-from rosalind.utilities import read_fasta
+from rosalind.utilities import read_fasta_dict
 
 
 def gc_content(seq):
@@ -19,6 +19,6 @@ def max_gc(strands):
 
 if __name__ == "__main__":
     file = input("File path: ")
-    strands = read_fasta(file)
+    strands = read_fasta_dict(file)
     max_strand, content = max_gc(strands)
     print("%s\n%f" %(max_strand, content))

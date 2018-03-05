@@ -1,5 +1,5 @@
 import numpy as np
-from rosalind.utilities import read_fasta
+from rosalind.utilities import read_fasta_dict
 
 def profile(dna):
     length = len(dna[0])
@@ -30,7 +30,7 @@ def consensus(strands):
 
 if __name__ == "__main__":
     file = input("File path: ")
-    strands = read_fasta(file)
+    strands = read_fasta_dict(file)
     dna = [value for value in strands.values()]
     str_profile = profile(dna)
     strA = "A: ";
