@@ -1,6 +1,12 @@
 ## CS 122
 UCLA CS122 with Eskin, Winter 2018
 
+## Projects
+
+Project 1: Alignment and SNPS
+
+Project 2: INDELS 
+
 ## Rosalind HW
 ASMQ
 - Problem Title:Assessing Assembly Quality with N50 and N75
@@ -143,4 +149,4 @@ REVC
 - URL: http://rosalind.info/problems/revc
 
 
-## Projects 
+

@@ -52,11 +52,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rosalind/README.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="17">
-                <caret line="97" column="38" lean-forward="false" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+              <first_editor relative-caret-position="-981">
+                <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -139,9 +139,9 @@
         <option value="$PROJECT_DIR$/rosalind/gasm.py" />
         <option value="$PROJECT_DIR$/rosalind/ba3c.py" />
         <option value="$PROJECT_DIR$/rosalind/grep.py" />
-        <option value="$PROJECT_DIR$/rosalind/README.md" />
         <option value="$PROJECT_DIR$/projects/PA1/PA1_README.md" />
         <option value="$PROJECT_DIR$/projects/PA2/PA2_README.md" />
+        <option value="$PROJECT_DIR$/rosalind/README.md" />
       </list>
     </option>
   </component>
@@ -195,8 +195,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/rosalind" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/rosalind" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -553,7 +553,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rosalind/README.md" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/../homework/hw2/p21.py" />
     <entry file="file://$PROJECT_DIR$/../homework/hw2/p22.py" />
     <entry file="file://$PROJECT_DIR$/rosalind/hamm.py">
@@ -862,11 +862,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rosalind/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="97" column="38" lean-forward="false" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+          <first_editor relative-caret-position="-981">
+            <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             <folding />
           </first_editor>
           <second_editor />
