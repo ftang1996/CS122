@@ -2,6 +2,10 @@
 UCLA CS122 with Eskin, Winter 2018
 
 ## Rosalind HW
+ASMQ
+- Problem Title:Assessing Assembly Quality with N50 and N75
+- URL: http://rosalind.info/problems/asmq
+
 BA1E
 - Problem Title: Find Patterns Forming Clumps in a String
 - URL: http://rosalind.info/problems/ba1e
@@ -58,6 +62,10 @@ CORR
 - Problem Title: Error Correction in Reads
 - URL: http://rosalind.info/problems/corr
 
+DBRU
+- Problem Title: Constructing a De Bruijn Graph
+- URL: http://rosalind.info/problems/dbru
+
 DEG
 - Problem Title: Degree Array
 - URL: http://rosalind.info/problems/corr
@@ -70,9 +78,17 @@ FIB
 - Problem Title: Rabbits and Recurrence Relations
 - URL: http://rosalind.info/problems/fib
 
+GASM
+- Problem Title: Genome Assembly Using Reads
+- URL: http://rosalind.info/problems/gasm
+
 GC
-- Problem Title: Computing GC Content
+- Problem Title: Genome Assembly with Perfect Coverage and Repeats
 - URL: http://rosalind.info/problems/gc
+
+GREP
+- Problem Title: Computing GC Content
+- URL: http://rosalind.info/problems/grep
 
 HAMM
 - Problem Title: Counting Point Mutations
@@ -105,6 +121,10 @@ INI6
 MRNA
 - Problem Title: Inferring mRNA from Protein
 - URL: http://rosalind.info/problems/mrna
+
+PCOV
+- Problem Title: Genome Assembly with Perfect Coverage
+- URL: http://rosalind.info/problems/pcov
 
 PDST
 - Problem Title: Creating a Distance Matrix
