@@ -1,11 +1,58 @@
-## CS 122
+# CS 122
 UCLA CS122 with Eskin, Winter 2018
 
-## Projects
 
-Project 1: Alignment and SNPS
+## Project 1
 
-Project 2: INDELS 
+### Overview
+In the first two programming assignments for this class, you will solve the computational problem of re- sequencing, which is the process of inferring a donor genome based on reads and a reference.
+You are given a reference genome in FASTA format, and paired-end reads.
+The first line of each file indicates which project that the data relates to. In the reference file, the genome is written in order, 80 bases (A’s, C’s, G’s, and T’s) per line.
+The paired end reads are generated from the unknown donor sequence, and 10 percent of the reads are generated randomly to mimic contamination with another genetic source. These reads are formatted as two 50 bp-long ends, which are separated by a 90-110 bp-long separator.
+
+### Getting Started
+If you've set everything up correctly, you should have no trouble running
+*basic_aligner.py* and *basic_pileup.py* to get some properly formatted output
+which you can submit on the [course site](https://cm124.herokuapp.com)
+
+### Instructions
+Don't worry about insertions and deletions for this project. All you need to do is figure out how to tell the true SNPs from the false positives in the consensus sequence.
+
+### Outline of Provided Skeleton Code
+The reference and reads are the inputs to *basic_aligner.py*, which are converted to the aligned file using a trivial alignment algorithm.
+
+The aligned data is fed into the *basic_pileup.py* script, which generates a consensus sequence by picking the most common base at each position.  That "consensus" file is the heart of this assignment; it has the reference, the aligned reads, and then an asterisk at every position where the consensus sequence differs from the reference. If you can understand what is going on there, you'll understand what you can change to improve mapping true SNPs, and then go on to mapping structural variations.
+
+The *basic_pileup.py* script also makes a file that starts snps that is used to format the output properly.  It notes all of the differences between the consensus and the reference and notes the position where they occur. It also zips that file so you can sumbit it directly to the course site.
+
+### My Implementation
+
+*genome_align* implements a hashing algorithm to construct a table of kmers for the reference genome. This significantly improves speeds compared to the skeleton *basic_aligner*, as the process simply looks up possible alignments for a read with a minimum number of mismatches, instead of scanning through every possible match. 
+
+This implementation received a score of 87.5% on SNP identifications on the [Course Score Board](https://cm124.herokuapp.com/view_hw1_scores) 
+
+
+## Project 2
+### Getting Started
+You should be able to integrate your code from last week
+
+### Instructions
+You will have to start thinking about insertions and deletions now, but your first job is still to write code that does a good job of identifying SNPs.  The most important thing you'll have to worry about on this assignment is speed; your code can end up going too slowly if you don't implement some optimizations.
+
+### Outline of Provided Skeleton Code
+The hasher only changes the speed at which you're going to get aligned reads, but it's also going to provide a bit more complicated output that you'll have to disentangle to 
+
+### What You Should Change
+Play with the basic hasher. Think about what it does well and does poorly. Try it out on the larger datasets.
+
+What's a good choice for the key length here?
+
+### My Implementation
+
+*NW_align* implements a Needleman_Wunsch type algorithm and matrix backtracking to globally align the donor genome. The data was initially aligned using *genome_align* from PA1. The NW_align was then used to distinguish between SNPS and INDEL variants. 
+
+This implementation received a score of 82.06% on SNP and 15.45% on INDEL identifications on the [Course Score Board](https://cm124.herokuapp.com/view_hw2_scores) 
+
 
 ## Rosalind HW
 ASMQ
